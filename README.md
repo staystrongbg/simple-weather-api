@@ -1,2 +1,4 @@
 # simple-weather-api
-html,css,js
+## live 
+
+http://wttr-api-zoran.surge.sh/

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+  background-color: seashell;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+h1 {
+  font-size: 35px;
+}
+
+.card {
+  font-family: 'Maven Pro';
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 40px;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+  width: 500px;
+  height: 900px;
+  position: relative;
+  box-shadow: 2px 0px 8px #888;
+}
+
+.card header {
+  color: #888;
+}
+
+.active {
+  font-weight: 900;
+  color: crimson;
+}
+
+.icon {
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 0;
+  background-color: #fff;
+  text-transform: capitalize;
+  margin: 20px 40px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.dets {
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* background-color: violet; */
+  gap: 15px;
+}
+
+.day {
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  color: #555;
+  height: 250px;
+  width: 140px;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  place-items: center;
+  box-shadow: 2px 0px 8px #888;
+}
+.temp {
+  font-size: 55px;
+  font-weight: 900;
+}
+#updated {
+  font-size: 10px;
+  color: #111;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#city {
+  font-size: 32px;
+  color: #444;
+}
